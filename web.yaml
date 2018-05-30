@@ -1,0 +1,8 @@
+name: web
+replicas: 2
+public: true
+containers:
+  web:
+    image: okteto/sample-app
+    ports:
+      - http:80:http:80
