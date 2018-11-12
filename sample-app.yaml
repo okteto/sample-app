@@ -2,7 +2,7 @@ name: sample-app
 replicas: 1
 public: true
 containers:
-  welcome:
+  app:
     image: okteto/sample-app
     ports:
       - https:443:http:80
