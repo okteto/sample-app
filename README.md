@@ -1,6 +1,6 @@
 # sample-app
 
-A simple Python app (using Flask) which can easily be deployed on [okteto](okteto.com).
+A simple Python app (using Flask) that can be easily deployed on [okteto](okteto.com).
 
 To run locally:
 
