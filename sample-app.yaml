@@ -7,4 +7,4 @@ containers:
     ports:
       - https:80:http:80
     dev:
-      image: python:2.7
+      image: okteto/sample-app
