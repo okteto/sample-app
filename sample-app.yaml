@@ -5,6 +5,6 @@ containers:
   app:
     image: okteto/sample-app
     ports:
-      - https:80:http:80
+      - http:80:http:80
     dev:
       image: okteto/sample-app
