@@ -1,10 +1,6 @@
 name: sample-app
-replicas: 1
-public: true
 containers:
   app:
     image: okteto/sample-app
     ports:
-      - http:80:http:80
-    dev:
-      image: okteto/sample-app
+      - 80

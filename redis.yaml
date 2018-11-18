@@ -1,7 +1,6 @@
 name: redis
-stateful: true
 containers:
   redis:
     image: redis:alpine
-    ports:
-      - tcp:6379:tcp:6379
+    expose:
+      - 6379
